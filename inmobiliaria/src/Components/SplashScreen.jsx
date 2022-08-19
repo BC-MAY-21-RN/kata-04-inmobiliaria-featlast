@@ -3,6 +3,7 @@ import { Animated, Dimensions, View } from "react-native";
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 
+
 // Logo And Component
 import Logo from '../assets/Logo.png';
 import Home from './HomeScreen';
@@ -131,7 +132,9 @@ export default function SplashScreen() {
                             { scale: scaleLogo },
 
                         ]
-                    }}></Animated.Image>
+                    }}>
+                    
+                    </Animated.Image>
 
                     <Animated.Text style={{
                         fontSize: 25,
