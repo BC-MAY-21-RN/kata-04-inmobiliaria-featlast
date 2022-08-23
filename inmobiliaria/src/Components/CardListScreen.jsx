@@ -34,13 +34,13 @@ export default function CardListScreen({name, image, address,numberBedrroms,show
       </View>
     </View>
     <View>
-      <Text style={{marginTop: 25, marginLeft: 15, fontFamily:'Poppins_500Medium', fontSize: 20}}>{name}</Text>
+      <Text style={{marginTop: 25, marginLeft: 5, fontFamily:'Poppins_500Medium', fontSize: 20}}>{name}</Text>
       <View style={{flexDirection:'row'}}>
-        <Ionicons name='location-outline' size={20} style={{marginLeft: 15}}/>
+        <Ionicons name='location-outline' size={20} style={{marginLeft: 5}}/>
       <Text style={{marginTop: 2, marginLeft: 5, color:'gray', fontFamily:'Poppins_400Regular', fontSize: 14}}>{address}</Text>
       </View>
       <View style={{ flexDirection:'row', justifyContent:'space-evenly'}}>
-        <Image source={require('../assets/cama.png')} style={{marginLeft: 15, marginTop:4,width:20, height:18, tintColor:'#4b5563'}}  />
+        <Image source={require('../assets/cama.png')} style={{marginLeft: 5, marginTop:4,width:20, height:18, tintColor:'#4b5563'}}  />
         <Text style={{marginTop: 5,marginLeft:8, fontFamily:'Poppins_500Medium', fontSize: 13}}>{numberBedrroms}</Text>
         <Image source={require('../assets/tina.png')} style={{marginLeft: 15, marginTop:4,width:20, height:18, tintColor:'#4b5563'}}  />
         <Text style={{marginTop: 5,marginLeft: 8, fontFamily:'Poppins_500Medium', fontSize: 13}}>{shower}</Text>
@@ -48,7 +48,7 @@ export default function CardListScreen({name, image, address,numberBedrroms,show
         <Text style={{marginTop: 5,marginLeft: 8, fontFamily:'Poppins_500Medium', fontSize: 13}}>{`${area} ft`}</Text>
       </View>
       
-      <Text style={{marginTop: 3, marginLeft: 15, fontFamily:'Poppins_500Medium', fontSize: 18}}>{`$${price}/m`}</Text>
+      <Text style={{marginTop: 3, marginLeft: 5, fontFamily:'Poppins_500Medium', fontSize: 18}}>{`$${price}/m`}</Text>
       </View>
       <View style={{flexDirection:'column',alignSelf:'center', marginTop:42 }}><Text style={{ fontSize:9, fontFamily:'Poppins_500Medium'}}>2</Text></View>
   </View>
