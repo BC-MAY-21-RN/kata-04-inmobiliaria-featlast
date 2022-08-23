@@ -6,7 +6,7 @@ export const data = [
     shower: 2,
     area: 250,
     price: 440,
-    start: 4.7,
+    star: 4.7,
     image: 'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fHJlbnRhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
   },
   { id: 2, 
@@ -15,8 +15,8 @@ export const data = [
     numberBedrroms: 3,
     shower: 2,
     area: 280,
-    price: 440,
-    start: 4.5,
+    price: 450,
+    star: 4.5,
     image: "https://images.unsplash.com/photo-1591465709469-5de113a071cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cmVudGFsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
   },
   { id: 3, 
@@ -25,8 +25,8 @@ export const data = [
     numberBedrroms: 3,
     shower: 2,
     area: 300,
-    price: 440,
-    start: 4.3,
+    price: 480,
+    star: 4.3,
     image: 'https://images.unsplash.com/photo-1485996463739-9cb09adbe6c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fHJlbnRhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
   },
   { id: 4, 
@@ -35,8 +35,8 @@ export const data = [
     numberBedrroms: 3,
     shower: 2,
     area: 430,
-    price: 440,
-    start: 4.1,
+    price: 500,
+    star: 4.1,
     image: 'https://images.unsplash.com/photo-1597799029342-ab2546a93ec6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzl8fHJlbnRhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'
   },
 
@@ -46,8 +46,8 @@ export const data = [
     numberBedrroms: 3,
     shower: 2,
     area: 250,
-    price: 440,
-    start: 4.7,
+    price: 610,
+    star: 4.7,
     image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'
   },
   { id: 6, 
@@ -56,8 +56,8 @@ export const data = [
     numberBedrroms: 3,
     shower: 2,
     area: 280,
-    price: 440,
-    start: 4.5,
+    price: 490,
+    star: 4.5,
     image: "https://images.unsplash.com/photo-1606046604972-77cc76aee944?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aG90ZWxlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
   },
   { id: 7, 
@@ -66,8 +66,8 @@ export const data = [
     numberBedrroms: 3,
     shower: 2,
     area: 300,
-    price: 440,
-    start: 4.3,
+    price: 505,
+    star: 4.3,
     image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWxlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'
   },
   { id: 8, 
@@ -76,8 +76,8 @@ export const data = [
     numberBedrroms: 3,
     shower: 2,
     area: 430,
-    price: 440,
-    start: 4.1,
+    price: 403,
+    star: 4.1,
     image: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'
   },
 ];

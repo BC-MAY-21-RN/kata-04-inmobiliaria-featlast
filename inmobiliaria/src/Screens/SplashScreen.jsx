@@ -106,6 +106,7 @@ export default function SplashScreen() {
             bottom: 0,
             left: 0,
             right: 0,
+            
         }}>
 
             <Animated.View style={{

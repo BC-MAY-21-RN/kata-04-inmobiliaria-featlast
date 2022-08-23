@@ -2,7 +2,7 @@ import React from 'react'
 import { ScrollView, StyleSheet,  } from 'react-native'
 import { LinearGradient } from 'expo-linear-gradient';
 import { data } from '../Data/Data'
-import CardListScreen from './CardListScreen';
+import CardListScreen from '../Components/CardListScreen';
 
 function HomeScreen() {
     return (
@@ -17,15 +17,14 @@ function HomeScreen() {
                 flex: 1,
                 width: "90%",
                 height: 205,
-                marginTop: 68,
-                paddingBottom: 100,
+                marginTop: 80,
           }}>
                 {
                     data.map((listData, index)=> 
                     <CardListScreen key={index} {...listData}/>
                     )
                 }
-</ScrollView>
+            </ScrollView>
         </LinearGradient>
     )
 }
