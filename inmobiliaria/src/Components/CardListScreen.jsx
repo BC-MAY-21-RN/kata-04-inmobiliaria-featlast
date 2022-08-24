@@ -15,7 +15,9 @@ export default function CardListScreen({name, image, address,numberBedrroms,show
   return (
     <SafeAreaView style={[styles.containerCard, styles.elevation]}>
     <View style={{flexDirection:'row'}}>
- 
+    <View style={{marginTop:120,marginLeft:290,position:'absolute',flexDirection:'column',  justifyContent:'flex-end'}}>
+        <Ionicons name='heart-circle' size={32} color={'#00B074'} style={{marginLeft: 5}}/>
+    </View>
       <View >
         <Image
         style={{
@@ -33,13 +35,13 @@ export default function CardListScreen({name, image, address,numberBedrroms,show
         <Text style={{color:'#907941', fontSize: 12}}>{star}</Text>
       </View>
     </View>
-    <View>
+    <View style={{width: 200}}>
       <Text style={{marginTop: 25, marginLeft: 5, fontFamily:'Poppins_500Medium', fontSize: 20}}>{name}</Text>
       <View style={{flexDirection:'row'}}>
         <Ionicons name='location-outline' size={20} style={{marginLeft: 5}}/>
       <Text style={{marginTop: 2, marginLeft: 5, color:'gray', fontFamily:'Poppins_400Regular', fontSize: 14}}>{address}</Text>
       </View>
-      <View style={{ flexDirection:'row', justifyContent:'space-evenly'}}>
+      <View style={{ flexDirection:'row', justifyContent:'space-evenly' }}>
         <Image source={require('../assets/cama.png')} style={{marginLeft: 5, marginTop:4,width:20, height:18, tintColor:'#4b5563'}}  />
         <Text style={{marginTop: 5,marginLeft:8, fontFamily:'Poppins_500Medium', fontSize: 13}}>{numberBedrroms}</Text>
         <Image source={require('../assets/tina.png')} style={{marginLeft: 15, marginTop:4,width:20, height:18, tintColor:'#4b5563'}}  />
@@ -47,10 +49,13 @@ export default function CardListScreen({name, image, address,numberBedrroms,show
         <Image source={require('../assets/planes.png')} style={{marginLeft: 15, marginTop:4,width:20, height:18, tintColor:'#4b5563'}}  />
         <Text style={{marginTop: 5,marginLeft: 8, fontFamily:'Poppins_500Medium', fontSize: 13}}>{`${area} ft`}</Text>
       </View>
-      
       <Text style={{marginTop: 3, marginLeft: 5, fontFamily:'Poppins_500Medium', fontSize: 18}}>{`$${price}/m`}</Text>
+
       </View>
-      <View style={{flexDirection:'column',alignSelf:'center', marginTop:42 }}><Text style={{ fontSize:9, fontFamily:'Poppins_500Medium'}}>2</Text></View>
+      <View style={{flexDirection:'column',justifyContent:'flex-end', marginBottom:42, marginHorizontal:-4 }}>
+        <Text style={{ fontSize:9, fontFamily:'Poppins_500Medium'}}>2</Text>
+      </View>
+
   </View>
     <LottieView
       autoPlay
@@ -79,7 +84,8 @@ const styles = StyleSheet.create({
     width: '98%',
     backgroundColor:'white',
     borderRadius:15,
-    marginBottom:4
+    marginBottom:4,
+ 
   },
   elevation:{
     elevation: 10,
